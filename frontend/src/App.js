@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { MessageSquare, Plus, Trash2, Edit, Check, X, Bot } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://llmq-feedback-backend-gsva.onrender.com/';
 
 function App() {
   const [feedback, setFeedback] = useState([]);
